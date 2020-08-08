@@ -23,6 +23,7 @@
     "children": [
       "product-price",
       "flex-layout.row#qty-sku",
+      "shipping-simulator",
       "product-name",
       "product-identifier.product",
       "buy-button"
@@ -57,6 +58,11 @@
     "props": {
       "showSku": true,
       "showBrandName": true
+    }
+  },
+  "shipping-simulator": {
+    "props": {
+      "skuID": "342"
     }
   },
   "product-price": {
