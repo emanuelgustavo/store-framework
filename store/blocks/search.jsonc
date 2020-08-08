@@ -51,5 +51,10 @@
       "gallery",
       "not-found"
     ]
+  },
+  "gallery": {
+    "children": [
+      "product-summary.shelf"
+    ]
   }
 }
