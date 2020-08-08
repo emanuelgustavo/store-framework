@@ -1,6 +1,6 @@
 {
     "slider-layout": {
-        "blocks": [
+        "children": [
             "slider-layout#home"
         ]
     },
