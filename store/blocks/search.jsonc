@@ -53,7 +53,7 @@
     ]
   },
   "gallery": {
-    "children": [
+    "blocks": [
       "product-summary.shelf"
     ]
   }
