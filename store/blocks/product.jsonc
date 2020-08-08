@@ -24,7 +24,6 @@
       "product-price",
       "flex-layout.row#qty-sku",
       "product-name",
-      "product-identifier",
       "shipping-simulator",
       "buy-button"
     ],
@@ -36,7 +35,8 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "product-quantity"
+      "product-quantity",
+      "product-identifier.product"
     ]
   },
   "sku-selector": {
