@@ -23,8 +23,8 @@
     "children": [
       "product-price",
       "flex-layout.row#qty-sku",
-      "product-identifier.product",
       "product-name",
+      "product-identifier.product",
       "shipping-simulator",
       "buy-button"
     ],
