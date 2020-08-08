@@ -1,8 +1,0 @@
-{
-    "blocks.store": {
-        "blocks": [
-            "info-card#button-right",
-            "info-card#button-left"
-        ]
-    }
-}
