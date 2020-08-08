@@ -24,7 +24,7 @@
       "product-price",
       "flex-layout.row#qty-sku",
       "product-name",
-      "product-identifier.product",
+      "product-identifier",
       "shipping-simulator",
       "buy-button"
     ],
