@@ -62,9 +62,8 @@
     "iframe": {
         "props": {
             "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
-            "width": "800",
             "height": "1000",
-            "title": "Instagram"
+            "width": "800"
         }
     },
     "flex-layout.row#about-us": {
