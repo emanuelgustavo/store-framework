@@ -61,9 +61,9 @@
     },
     "iframe": {
         "props": {
-            "dynamicSrc": "https://www.instagram.com/p/B973Qp8BacC/embed",
-            "width": "800",
-            "height": "1000"
+            "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+            "width": "1000",
+            "height": "800"
         }
     },
     "flex-layout.row#about-us": {
