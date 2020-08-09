@@ -16,9 +16,7 @@
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
-                "maxItemsPerPage": 8,
-                "skusFilter": "Blue Top Retro Camera",
-                "simulationBehavior": "skip"
+                "maxItemsPerPage": 8
             }
         }
     }
