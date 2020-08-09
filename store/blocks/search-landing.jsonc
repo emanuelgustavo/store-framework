@@ -5,6 +5,12 @@
             "search-result-layout.customQuery"
         ]
     },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
+            "minWidth": "100%"
+        }
+    },
     "search-result-layout.customQuery": {
         "props": {
             "querySchema": {
