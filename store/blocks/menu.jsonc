@@ -21,7 +21,7 @@
                 "text": "Major Appliances"
             }
         },
-        "blocks": [
+        "children": [
             "vtex.menu@2.x:submenu#major"
         ]
     },
