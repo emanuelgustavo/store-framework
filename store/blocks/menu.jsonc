@@ -10,6 +10,7 @@
         }
     },
     "menu-item#major-appliances": {
+        /*
         "props": {
             "type": "custom",
             "highlight": true,
@@ -20,7 +21,7 @@
                 "tagTitle": "Major Appliances",
                 "text": "Major Appliances"
             }
-        },
+        },*/
         "children": [
             "vtex.menu@2.x:submenu#major"
         ]
