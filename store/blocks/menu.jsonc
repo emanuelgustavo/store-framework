@@ -26,7 +26,7 @@
         ]
     },
     "vtex.menu@2.x:submenu#major": {
-        "blocks": [
+        "children": [
             "vtex.menu@2.x:menu#major"
         ]
     },
