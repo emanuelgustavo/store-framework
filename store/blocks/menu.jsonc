@@ -10,6 +10,9 @@
         }
     },
     "menu-item#major-appliances": {
+        "blocks": [
+            "vtex.menu@2.x:submenu#major"
+        ],
         "props": {
             "type": "custom",
             "highlight": true,
@@ -20,10 +23,7 @@
                 "tagTitle": "Major Appliances",
                 "text": "Major Appliances"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#major"
-        ]
+        }
     },
     "vtex.menu@2.x:submenu#major": {
         "children": [
@@ -52,7 +52,7 @@
                 "text": "Small Appliances"
             }
         },
-        "children": [
+        "blocks": [
             "vtex.menu@2.x:submenu#small"
         ]
     },
