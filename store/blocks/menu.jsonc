@@ -10,7 +10,17 @@
         }
     },
     "menu-item#major-appliances": {
-        "children": [
+        "props": {
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "major-appliances",
+                "text": "Major Appliances"
+            }
+        },
+        "blocks": [
             "vtex.menu@2.x:submenu#major"
         ]
     },
