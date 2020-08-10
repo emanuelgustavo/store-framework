@@ -46,7 +46,10 @@
             "menu-item#cameras",
             "menu-item#laptops",
             "menu-item#tvs"
-        ]
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
     }
 }
 /*{
