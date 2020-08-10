@@ -52,7 +52,7 @@
                 "text": "Small Appliances"
             }
         },
-        "blocks": [
+        "children": [
             "vtex.menu@2.x:submenu#small"
         ]
     },
