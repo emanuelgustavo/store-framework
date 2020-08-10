@@ -9,20 +9,52 @@
             "orientation": "horizontal"
         }
     },
-    "vtex.menu@2.x:submenu#major": {
+    "menu-item#major-appliances": {
+        "props": {
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Major Appliances",
+                "text": "Major Appliances"
+            }
+        },
         "children": [
+            "vtex.menu@2.x:submenu#major"
+        ]
+    },
+    "vtex.menu@2.x:submenu#major": {
+        "blocks": [
             "vtex.menu@2.x:menu#major"
         ]
     },
     "vtex.menu@2.x:menu#major": {
+        "props": {
+            "orientation": "vertical"
+        },
         "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",
             "menu-item#washers"
-        ],
+        ]
+    },
+    "menu-item#small-appliances": {
         "props": {
-            "orientation": "vertical"
-        }
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Small Appliances",
+                "text": "Small Appliances"
+            }
+        },
+        "children": [
+            "vtex.menu@2.x:submenu#small"
+        ]
     },
     "vtex.menu@2.x:submenu#small": {
         "children": [
@@ -30,14 +62,30 @@
         ]
     },
     "vtex.menu@2.x:menu#small": {
+        "props": {
+            "orientation": "vertical"
+        },
         "children": [
             "menu-item#mixers",
             "menu-item#toasters",
             "menu-item#coffee"
-        ],
+        ]
+    },
+    "menu-item#electronics": {
         "props": {
-            "orientation": "vertical"
-        }
+            "type": "custom",
+            "highlight": true,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Electronics",
+                "text": "Eletronics"
+            }
+        },
+        "children": [
+            "vtex.menu@2.x:submenu#electronics"
+        ]
     },
     "vtex.menu@2.x:submenu#electronics": {
         "children": [
@@ -45,13 +93,13 @@
         ]
     },
     "vtex.menu@2.x:menu#electronics": {
+        "props": {
+            "orientation": "vertical"
+        },
         "children": [
             "menu-item#cameras",
             "menu-item#laptops",
             "menu-item#tvs"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+        ]
     }
 }
