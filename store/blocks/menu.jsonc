@@ -58,10 +58,10 @@
     },
     "vtex.menu@2.x:submenu#small": {
         "children": [
-            "vtex.menu@2.x:menu#submenusmall"
+            "vtex.menu@2.x:menu#small"
         ]
     },
-    "vtex.menu@2.x:menu#submenusmall": {
+    "vtex.menu@2.x:menu#small": {
         "props": {
             "orientation": "vertical"
         },
@@ -89,10 +89,10 @@
     },
     "vtex.menu@2.x:submenu#electronic": {
         "children": [
-            "vtex.menu@2.x:menu#submenuelectronic"
+            "vtex.menu@2.x:menu#electronic"
         ]
     },
-    "vtex.menu@2.x:menu#submenuelectronic": {
+    "vtex.menu@2.x:menu#electronic": {
         "props": {
             "orientation": "vertical"
         },
