@@ -11,12 +11,14 @@
     },
     "menu-item#major-appliances": {
         "props": {
+            "id": "menu-item#major-appliances",
             "type": "custom",
             "highlight": true,
             "itemProps": {
+                "type": "internal",
                 "href": "#",
                 "noFollow": false,
-                "tagTitle": "major-appliances",
+                "tagTitle": "Major Appliances",
                 "text": "Major Appliances"
             }
         },
