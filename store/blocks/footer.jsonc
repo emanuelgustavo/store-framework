@@ -19,5 +19,10 @@
             "paddingTop": 7,
             "paddingBottom": 7
         }
+    },
+    "flex-layout.col#footer-left-desktop": {
+        "children": [
+            "accepted-payment-methods"
+        ]
     }
 }
