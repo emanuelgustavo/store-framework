@@ -13,32 +13,17 @@
         "children": [
             "flex-layout.col#footer-left-desktop",
             "flex-layout.col#footer-right-desktop"
-        ],
-        "props": {
-            "blockClass": "footer-row",
-            "paddingTop": 7,
-            "paddingBottom": 7
-        }
+        ]
     },
     "flex-layout.col#footer-left-desktop": {
         "clildren": [
             "accepted-payment-methods"
-        ],
-        "props": {
-            "blockClass": "footer-col",
-            "paddingTop": 7,
-            "paddingBottom": 7
-        }
+        ]
     },
     "flex-layout.col#footer-right-desktop": {
         "clildren": [
             "social-networks"
-        ],
-        "props": {
-            "blockClass": "footer-col",
-            "paddingTop": 7,
-            "paddingBottom": 7
-        }
+        ]
     },
     "accepted-payment-methods": {
         "props": {
