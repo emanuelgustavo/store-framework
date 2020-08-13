@@ -29,5 +29,30 @@
         "children": [
             "social-networks"
         ]
+    },
+    "accepted-payment-methods": {
+        "props": {
+            "showInColor": true,
+            "paymentMethods": [
+                "mastercard",
+                "visa",
+                "diners club"
+            ]
+        }
+    },
+    "social-networks": {
+        "props": {
+            "showInColor": true,
+            "socialNetworks": [
+                {
+                    "url": "https://facebook.com/foo",
+                    "name": "Facebook"
+                },
+                {
+                    "url": "https://twitter.com/foo",
+                    "name": "Twitter"
+                }
+            ]
+        }
     }
 }
